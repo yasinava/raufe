@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hmaburger = () => {
+const Store = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Hmaburger = () => {
     );
 };
 
-export default Hmaburger;
+export default Store;

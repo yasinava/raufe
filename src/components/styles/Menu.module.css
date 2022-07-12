@@ -1,0 +1,20 @@
+.profile img{
+    width: 200px;
+}
+.title{
+    margin-top: 100px;
+}
+.title div{
+    border-top-right-radius:20px;
+    padding: 10px 0 10px 30px;
+
+    width: 250px;
+    transition: all 0.5s ease;
+}
+.title div:hover{
+    background-color: rgb(0, 90, 90);
+}
+.title a{
+    text-decoration: none;
+    color: black;
+}
