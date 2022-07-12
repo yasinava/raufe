@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 50px 0;
+}
+.title{
+    margin-left: 20px;
+}
+.connect{
+    display: flex;
+    margin-right: 50px;
+}
+.connect a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;    
+}
+.signLog{
+    margin: 0 20px;
+}
