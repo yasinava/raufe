@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
-import Login from "./components/shared/Login";
-import SignIn from "./components/shared/SignIn";
+import Login from "./components/Login";
+import SignIn from "./components/SignIn";
 const App = () => {
   return (
     <div>
