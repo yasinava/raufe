@@ -1,0 +1,126 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.formContainer{
+    width: 400px;
+    background-color: rgb(4, 122, 83);
+    margin:60px 0 0 0;
+    padding: 10px 60px;
+    padding-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 9px  rgba(1, 37, 1, 0.37);
+}
+.formField{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: silver;
+    margin-bottom: 30px;
+    user-select: none;
+    font-size: 15px;
+}
+.errors{
+    height: 10px;
+    margin-top: 2px;
+}
+.errors span{
+    color: red;
+    background-color: rgba(212, 4, 4, 0.658);
+    border-radius: 5px;
+}
+input{
+    padding: 15px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-bottom:1px solid silver ;
+    border-radius: 10px;
+    background-color: rgb(4, 122, 83);
+    color: #fff;
+}
+.checkbox{
+    color: silver;
+    text-align: left;
+
+}
+.checkbox label{
+    user-select: none;
+    margin-right: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.buttons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 0.3s all;
+}
+.buttons a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+.buttons button{
+    background-color: rgb(4, 122, 83);
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s all;
+    border-radius: 4px;
+
+}
+.buttons button:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+.title{
+    font-weight: bold;
+    color: #fff;
+    user-select: none;
+
+}
+.home{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 50px;
+    transition: all 0.3s;
+}
+.home:hover{
+    width: 60px;
+}
+.connect{
+    position: fixed;
+    top: 130px;
+    right: 50px;
+}
+.connect img{
+    width: 40px;
+    transition: all 0.3s;
+}
+.connect img:hover{
+    width: 50px;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+.unComplete{
+    border-bottom: 1px solid red;
+    transition: 0.2s all;
+}
+.complete:focus,
+.unComplete:focus{
+
+    border-bottom:1px solid #1a73e8;
+}
