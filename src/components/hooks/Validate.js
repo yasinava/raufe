@@ -16,6 +16,11 @@ export const Validate = (data , type) => {
     }else{
         delete error.password;
     }
+    if (data.isAccepted) {
+        delete error.isAccepted
+    } else {
+        error.isAccepted = "Accept our regulations"
+    }
     if(type === "signIn"){
 
         if(!data.name.trim()){
@@ -32,11 +37,7 @@ export const Validate = (data , type) => {
             delete error.confirmPassword;
         }
 
-        if (data.isAccepted) {
-            delete error.isAccepted
-        } else {
-            error.isAccepted = "Accept our regulations"
-        }
+      
     }
 
     return error;
