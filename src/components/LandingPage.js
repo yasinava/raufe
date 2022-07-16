@@ -4,9 +4,9 @@ import Menu from "./Menu";
 import Navbar from "./Navbar";
 import About from "./shared/About";
 import Hamburger from "./shared/Hamburger";
-import Home from "./shared/Home";
-import More from "./shared/More";
-import Movie from "./shared/Movie";
+import Dahom from './shared/Dahom';
+import Yazdahom from './shared/Yazdahom';
+import Davazdahom from './shared/Davazdahom';
 import Projects from "./Projects";
 import styles from "./styles/LandingPage.module.css"
 
@@ -21,10 +21,10 @@ const LandingPage = () => {
         <Routes>
           <Route path='*' element={<Projects />}/>
           <Route path="hamburger" element={<Hamburger />} />
-          <Route path="home" element={<Home />} />
+          <Route path="Davazdahom" element={<Davazdahom />} />
           <Route path="about" element={<About />} />
-          <Route path="more" element={<More />} />
-          <Route path="movie" element={<Movie />} />
+          <Route path="Dahom" element={<Dahom />} />
+          <Route path="Yazdahom" element={<Yazdahom />} />
         </Routes>
         </div>
       </div>

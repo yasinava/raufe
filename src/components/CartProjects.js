@@ -2,7 +2,7 @@ import React from "react";
 import styles  from "./styles/CartProject.module.css";
 
 const CartProjects = ({ data }) => {
-  console.log(data);
+
   return (
     <div className={styles.container}>
       <div className={styles.image}>

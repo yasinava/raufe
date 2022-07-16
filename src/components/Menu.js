@@ -9,9 +9,9 @@ const Menu = () => {
             <img src={logo} alt="logo" />
             </Link>
             <div className={styles.title}>
-                <Link to="more"><div>More</div></Link>
-                <Link to="movie"><div>Movie</div></Link>
-                <Link to="home"><div>Home</div></Link>
+                <Link to="Dahom"><div>دهم</div></Link>
+                <Link to="Yazdahom"><div>یازدهم</div></Link>
+                <Link to="Davazdahom"><div>دوازدهم</div></Link>
             </div>
             </div>
         </div>

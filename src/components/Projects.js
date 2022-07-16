@@ -1,6 +1,6 @@
 import React from 'react';
 import CartProjects from './CartProjects';
-import logo from "../components/assets/icons/phyzic (4).jpg";
+import logo from "./assets/icons/phyzic (4).jpg";
 import styles from "./styles/Projects.module.css";
 
 const projectData = [

@@ -28,7 +28,7 @@
 }
 .errors span{
     color: red;
-    background-color: rgba(212, 4, 4, 0.658);
+    /* background-color: rgba(212, 4, 4, 0.658); */
     border-radius: 5px;
 }
 input{
