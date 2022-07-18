@@ -1,5 +1,32 @@
-.container img{
-    width: 400px;
-    height: 400px;
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid silver;
     border-radius: 20px;
+    margin: 100px;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.274);
+}
+.picture img[alt="pic"]{
+    border: 2px solid #fff;
+    box-shadow: 0 0 4px 2px rgb(90, 89, 89);
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.connect{
+    display: flex;
+    align-items: center;
+    margin:20px ;
+    margin-left: 40px;
+}
+.connect img{
+    width: 40px;
+}
+.connect span{
+    margin: 10px;
+    color: #808080;
+    font-weight: bold;
+}
+.about{
+    margin: 30px;
 }

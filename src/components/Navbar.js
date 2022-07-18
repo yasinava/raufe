@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from "./styles/Navbar.module.css"
-
+import logo from "./assets/icons/shopping-cart-with-product-inside-svgrepo-com.svg";
 const Navbar = () => {
     return (
         <div className={styles.container}>
@@ -11,6 +11,9 @@ const Navbar = () => {
                 <div className={styles.signLog}>
                     <Link to="signin">Sign In</Link> | <Link to="login">Login</Link>
                 </div>
+                <Link to="sabad">
+                <div className={styles.sabadLogo}><img src={logo} alt="logo"/></div>
+                </Link>
             </div>
         </div>
     );
