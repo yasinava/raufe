@@ -8,39 +8,39 @@ const DataContextProvider = ({children}) => {
     const homeData = [
         {
             id : 0,
-            title : "google",
+            title : "کار و انرژی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000",
+            price:"2500",
         },
         {
             id : 1,
-            title : "google",
+            title : "انرژی جنبشی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"2900"
         },
         {
             id : 2,
-            title : "google",
+            title : "تکانه",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"1000"
         },
         {
             id : 3,
-            title : "google",
+            title : "نیوتون",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"4200"
         },
         {
             id : 4,
-            title : "google",
+            title : "پاسکال",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -48,7 +48,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 5,
-            title : "google",
+            title : "نیرو و توان",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -56,7 +56,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 6,
-            title : "google",
+            title : "پایستگی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -64,7 +64,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 7,
-            title : "google",
+            title : "قاون اول",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -72,7 +72,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 8,
-            title : "google",
+            title : "مویینگی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -80,7 +80,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 9,
-            title : "google",
+            title : "راندمان",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -88,7 +88,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 10,
-            title : "google",
+            title : "هانری",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -96,7 +96,7 @@ const DataContextProvider = ({children}) => {
         },
           {
             id : 11,
-            title : "google",
+            title : "سلسیوس",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -107,39 +107,39 @@ const DataContextProvider = ({children}) => {
     const Dahom = [
         {
             id : 0,
-            title : "google",
+            title : "کار و انرژی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000",
+            price:"2500",
         },
         {
             id : 1,
-            title : "google",
+            title : "انرژی جنبشی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"2900"
         },
         {
             id : 2,
-            title : "google",
+            title : "تکانه",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"1000"
         },
         {
             id : 3,
-            title : "google",
+            title : "نیوتون",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"4200"
         },
         {
             id : 4,
-            title : "google",
+            title : "پاسکال",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -147,7 +147,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 5,
-            title : "google",
+            title : "نیرو و توان",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -155,7 +155,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 6,
-            title : "google",
+            title : "پایستگی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -163,7 +163,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 7,
-            title : "google",
+            title : "قاون اول",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -171,7 +171,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 8,
-            title : "google",
+            title : "مویینگی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -179,7 +179,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 9,
-            title : "google",
+            title : "راندمان",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -187,7 +187,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 10,
-            title : "google",
+            title : "هانری",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -195,50 +195,49 @@ const DataContextProvider = ({children}) => {
         },
           {
             id : 11,
-            title : "google",
+            title : "سلسیوس",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
             price:"3000"
         }
     
-    ];
-    const Yazdahom = [
+    ];const Yazdahom = [
         {
             id : 0,
-            title : "google",
+            title : "کار و انرژی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000",
+            price:"2500",
         },
         {
             id : 1,
-            title : "google",
+            title : "انرژی جنبشی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"2900"
         },
         {
             id : 2,
-            title : "google",
+            title : "تکانه",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"1000"
         },
         {
             id : 3,
-            title : "google",
+            title : "نیوتون",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"4200"
         },
         {
             id : 4,
-            title : "google",
+            title : "پاسکال",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -246,7 +245,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 5,
-            title : "google",
+            title : "نیرو و توان",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -254,7 +253,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 6,
-            title : "google",
+            title : "پایستگی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -262,7 +261,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 7,
-            title : "google",
+            title : "قاون اول",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -270,7 +269,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 8,
-            title : "google",
+            title : "مویینگی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -278,7 +277,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 9,
-            title : "google",
+            title : "راندمان",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -286,7 +285,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 10,
-            title : "google",
+            title : "هانری",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -294,50 +293,49 @@ const DataContextProvider = ({children}) => {
         },
           {
             id : 11,
-            title : "google",
+            title : "سلسیوس",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
             price:"3000"
         }
     
-    ];
-    const Davazdahom =  [
+    ];const Davazdahom = [
         {
             id : 0,
-            title : "google",
+            title : "کار و انرژی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000",
+            price:"2500",
         },
         {
             id : 1,
-            title : "google",
+            title : "انرژی جنبشی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"2900"
         },
         {
             id : 2,
-            title : "google",
+            title : "تکانه",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"1000"
         },
         {
             id : 3,
-            title : "google",
+            title : "نیوتون",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
-            price:"3000"
+            price:"4200"
         },
         {
             id : 4,
-            title : "google",
+            title : "پاسکال",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -345,7 +343,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 5,
-            title : "google",
+            title : "نیرو و توان",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -353,7 +351,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 6,
-            title : "google",
+            title : "پایستگی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -361,7 +359,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 7,
-            title : "google",
+            title : "قاون اول",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -369,7 +367,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 8,
-            title : "google",
+            title : "مویینگی",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -377,7 +375,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 9,
-            title : "google",
+            title : "راندمان",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -385,7 +383,7 @@ const DataContextProvider = ({children}) => {
         },
         {
             id : 10,
-            title : "google",
+            title : "هانری",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",
@@ -393,7 +391,7 @@ const DataContextProvider = ({children}) => {
         },
           {
             id : 11,
-            title : "google",
+            title : "سلسیوس",
             link : "https://www.google.com/?hl=FA",
             image : {logo},
             githublink:"",

@@ -4,22 +4,39 @@
     align-items: center;
     /* background-color: aquamarine; */
     padding: 50px 0;
+    
 }
 .title{
-    margin-left: 20px;
+    margin-left: 80px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #019b8f;
 }
 .connect{
     display: flex;
     margin-right: 50px;
+    background-color: rgb(214, 245, 195);
+    border-radius: 5px;
+    padding: 20px;
 }
 .connect a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;    
 }
 .signLog{
     margin: 0 20px;
+    background-color: rgba(14, 240, 21, 0.688);
+    border-radius: 5px;
+    padding: 15px;
 }
 .sabadLogo img{
     width: 30px;
+    margin-top: 10px;
+}
+.me{
+
+    margin-top: 13px;
 }

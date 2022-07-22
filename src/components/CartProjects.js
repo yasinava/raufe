@@ -23,13 +23,13 @@ const CartProjects = ({ data }) => {
             <button
             onClick={() => dispatch({ type: "REMOVEITEM", payload: data })}
             >
-              Remove
+              حذف
             </button>
           ) : (
             <button
             onClick={() => dispatch({ type: "ADDITEM", payload: data })}
             >
-              ADDITEM
+              افزودن
             </button>
           )}
           </div>
@@ -38,5 +38,7 @@ const CartProjects = ({ data }) => {
     </div>
   );
 };
+
+
 
 export default CartProjects;

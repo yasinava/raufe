@@ -15,7 +15,7 @@ const Davazdahom = () => {
     
     return (
         <div>
-            <input type="text" value={search} placeholder="Search.." onChange={changHandler} />
+            <input className={styles.input} type="text" value={search} placeholder="Search.." onChange={changHandler} />
             <div className={styles.cartContainer}>
                 {api.Davazdahom.length  ? searchedData.map(item => <CartProjects key={item.id} data={item} />) : "loading..."}
             </div>

@@ -3,14 +3,18 @@
     justify-content: space-between;
     border: 1px solid silver;
     border-radius: 20px;
-    margin: 100px;
+    margin: 10px;
     box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.274);
+    width: 90%;
+    height: 400px;
+    background-color: rgb(232, 255, 233);
 }
-.picture img[alt="pic"]{
+.picture img[alt="pic"]
+{
     border: 2px solid #fff;
-    box-shadow: 0 0 4px 2px rgb(90, 89, 89);
-    width: 250px;
-    border-radius: 50%;
+    box-shadow: 0 0 4px 2px #1a55007a;
+    width:250px;
+    border-radius: 15px;
     margin: 20px;
 }
 .connect{
@@ -24,9 +28,17 @@
 }
 .connect span{
     margin: 10px;
-    color: #808080;
+    color: #000000;
     font-weight: bold;
+}
+.connect a{
+    list-style: none;
+    text-decoration: none;
 }
 .about{
     margin: 30px;
+}
+.about h1,p{
+    text-align: center;
+    
 }

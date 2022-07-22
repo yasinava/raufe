@@ -4,6 +4,7 @@ import { DataContext } from '../Context/DataContextProvider';
 import styles from '../styles/Projects.module.css';
 
 
+
 const Dahom = () => {
     const api = useContext(DataContext);
     const [search , setSearch] = useState("");
@@ -15,7 +16,10 @@ const Dahom = () => {
     
     return (
         <div>
-            <input type="text" value={search} placeholder="Search.." onChange={changHandler} />
+            <div>
+            
+            <input className={styles.input} type="text" value={search} placeholder="Search.." onChange={changHandler} />
+            </div>
             <div className={styles.cartContainer}>
                 {api.Dahom.length ? searchedData.map(item => <CartProjects key={item.id} data={item} />) : "loading..."}
             </div>

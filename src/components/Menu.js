@@ -9,6 +9,7 @@ const Menu = () => {
             <img src={logo} alt="logo" />
             </Link>
             <div className={styles.title}>
+                <h1 className={styles.h1}>چندم میخونی؟</h1>
                 <Link to="Dahom"><div>دهم</div></Link>
                 <Link to="Yazdahom"><div>یازدهم</div></Link>
                 <Link to="Davazdahom"><div>دوازدهم</div></Link>
