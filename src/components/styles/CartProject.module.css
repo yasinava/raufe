@@ -1,4 +1,5 @@
 .container{
+    position: relative;
     border: 1px solid silver;
     border-radius: 8px;
     box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.534);
@@ -6,39 +7,55 @@
 }
 .image{
     width: 250px;
-    height: 280px;
+    height: 200px;
 }
 .image img{
     border-top-left-radius:5px ;
     border-top-right-radius:5px ;
     width: 250px;
-    height: 280px;
+    height: 200px;
 }
-.text{
-    margin-bottom: 20px;
-}
-.buttons{
+
+.textButtons{
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    background-color: rgba(198, 198, 199, 0.527);
+    height: 50px;
+    
 }
 .buttons img{
     width: 45px;
     border-radius: 50%;
     transition: 0.3s all;
 }
-.buttonsVisit{
+.greenButton button{
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.534);
     font-weight: bold;
-    color: black;
+    color: #fff;
     text-decoration: none;
-    background-color: rgb(256, 192, 30);
+    background-color: rgb(4, 117, 89);
     padding: 7px 20px;
     border-radius: 4px;
     transition: 0.3s all;
 }
-.buttonsVisit:hover{
-    background-color: rgb(256, 192, 30);
+.redButton button{
+    background-color: rgb(226, 0, 0);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.534);
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 4px;
+    transition: 0.3s all;
+}
+.buttons button:hover{
     padding: 9px 25px;
+}
+.like{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
 }

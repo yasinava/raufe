@@ -1,17 +1,13 @@
 .container{
     display: flex;
-}
-.menu{
-    width:300px ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
 }
 .main{
-    width: calc(100vw - 300px);
-}
-@media(max-width : 1024px){
-    .menu{
-        display: none;
-    }
-    .main{
-        width: 100vw;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

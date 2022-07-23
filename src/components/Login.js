@@ -16,7 +16,9 @@ const Login = () => {
   useEffect(() => {
     setErrors(Validate(data))
 }, [data, touched])
-
+const [success,setSuccess] = useState({
+  Login:false
+})
 
 
 
@@ -34,7 +36,7 @@ const Login = () => {
   const submitHandler = event => {
     event.preventDefault();
     if(!Object.keys(errors).length){
-        alert("success")
+      setSuccess({Login:true})
     }else{
       setTouched({
         name:true,
@@ -49,6 +51,13 @@ const Login = () => {
     <div className={styles.container}>
       <Link to="*" className={styles.home}><img src={Home} alt="home"/></Link>
       <Link to="/about" className={styles.connect}><img src={connect} alt="connect"/></Link>
+      {success.Login?
+        <div className={styles.success}>
+        <h1>successFully</h1>
+        <Link to="*">
+        <button onClick={()=>setSuccess({Login:false})}>Go To Shop</button>
+        </Link>
+      </div>:
       <form onSubmit={submitHandler} className={styles.formContainer}>
         <h2 className={styles.title} >Login</h2>
         <div className={styles.formField}>
@@ -91,7 +100,7 @@ const Login = () => {
           <Link to="/signin">Sign In</Link>
           <button type="submit">Login</button>
         </div>
-      </form>
+      </form>}
     </div>
   );
 };

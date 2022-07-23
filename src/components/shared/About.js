@@ -16,8 +16,12 @@ const About = () => {
                 <a href="https://www.instagram.com/ataei_fizik/">
                 <span>ataei_fizik</span>
                 </a>
-                <img src={whatsApp} alt="whatsApp" />
-                <span>+989392767262</span>
+                <a href='https://wa.me/989392767262'>
+                    <img src={whatsApp} alt="whatsApp" />
+                </a>
+                <a href='https://wa.me/989392767262'>
+                     <span>+989392767262</span>
+                </a>
             </div>
             </div>
             <div className={styles.about}>

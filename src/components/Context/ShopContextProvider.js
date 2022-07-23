@@ -7,7 +7,6 @@ const initialState = {
 const reducer = (state , action)=>{
     switch(action.type){
         case "ADDITEM":
-            console.log(action);
             if(!state.items.find(item => item.id === action.payload.id)){
                 state.items.push({
                     ...action.payload
@@ -33,7 +32,7 @@ const reducer = (state , action)=>{
             return{
                 items:[],
                 checkout:false
-            }      
+            }     
         default :
         return state;          
     }

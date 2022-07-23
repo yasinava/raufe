@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
-import Menu from "./Menu";
 import Navbar from "./Navbar";
 import About from "./shared/About";
 import Hamburger from "./shared/Hamburger";
@@ -14,11 +13,8 @@ import Sabad from './Sabad';
 const LandingPage = () => {
     return (
         <div className={styles.container}>
-        <div className={styles.menu}>
-          <Menu />
-        </div>
-        <div className={styles.main}>
         <Navbar />
+        <div className={styles.main}>
         <Routes>
           <Route path='*' element={<Projects />}/>
           <Route path="sabad" element={<Sabad />} />

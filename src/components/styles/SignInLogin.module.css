@@ -124,3 +124,22 @@ input[type="checkbox"]{
 
     border-bottom:1px solid #1a73e8;
 }
+.success{
+    width: 400px;
+    background-color: rgb(4, 122, 83);
+    margin:60px 0 0 0;
+    padding: 10px 60px;
+    padding-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 9px  rgba(1, 37, 1, 0.37);
+}
+.success button{
+    background-color: #fff;
+    padding: 10px;
+    color: #1a73e8;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
