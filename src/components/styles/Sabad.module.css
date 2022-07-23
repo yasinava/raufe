@@ -37,6 +37,9 @@ text-align: left;
     padding: 7px 20px;
     border-radius: 4px;
     margin:10px ;
-    transition: 0.3s all;
-    
+    transition: 0.3s all;   
+}
+.buttons button:hover{
+    padding: 9px 22px;
+    cursor: pointer;
 }
